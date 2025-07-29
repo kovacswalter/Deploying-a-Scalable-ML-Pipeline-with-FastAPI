@@ -64,6 +64,7 @@ def inference(model, X):
         Predictions from the model.
     """
     preds = model.predict(X)
+    
     return preds
 
 def save_model(model, path):
@@ -83,6 +84,7 @@ def save_model(model, path):
 def load_model(path):
     """ Loads pickle file from `path` and returns it."""
     with open(path,"rb") as file:
+        
         loaded_model = pickle.load(file)
     
     return loaded_model
