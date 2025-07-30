@@ -11,7 +11,7 @@ I split the data on an 80:20 split, using 80% for training data.
 ## Evaluation Data
 The evaluation data was the remaining 20%, from the 80:20 split.
 ## Metrics
-We used Percision, Recall, and F1 as our metrics for model performance. Percision shows us the percentage of true positives out of all the positives the model returned. Recall shows the percentage of positves out of all true positives and fals negatives. F1 is an average between the two.
+We used Percision, Recall, and F1 as our metrics for model performance. Percision shows us the percentage of true positives out of all the positives the model returned. Recall shows the pegit a
 ### Overall Metrics
 Precision: 0.7255 | Recall: 0.6151 | F1: 0.6658
 
